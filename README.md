@@ -28,5 +28,6 @@ https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 ### cd yourproject and run
 - `heroku create app-name --buildpack https://github.com/mars/create-react-app-buildpack.git`
 - heroku will add heroku in front of the buld app build and deploy it.
+- updated code must be in github master to be deployed to heroku
 - `git push heroku master`
 
