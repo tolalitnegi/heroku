@@ -1,5 +1,8 @@
 # Heroku deployment
 
+- heroku-react-app-lalit
+https://lalit-react.herokuapp.com/ 
+
 ## firebase config
 ```
 const config = {
@@ -14,3 +17,15 @@ const config = {
 
 ### login
 - create a new user using signup and login
+
+### setup
+nvm use 14
+yarn install
+yarn start
+https://devcenter.heroku.com/articles/heroku-cli#download-and-install 
+
+### cd yourproject and run
+- `heroku create app-name --buildpack https://github.com/mars/create-react-app-buildpack.git`
+- heroku will add heroku in front of the buld app build and deploy it.
+- `git push heroku master`
+
