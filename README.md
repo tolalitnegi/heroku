@@ -17,6 +17,7 @@ const config = {
 
 ### login
 - create a new user using signup and login
+- use email user1@user1.com / password:user1@user1.com
 
 ### setup
 nvm use 14
