@@ -2,6 +2,7 @@
 
 - heroku-react-app-lalit
 https://lalit-react.herokuapp.com/ 
+https://dashboard.heroku.com/apps
 
 ## firebase config
 ```
