@@ -20,6 +20,16 @@ class ShopPage extends React.Component {
 
       updateCollections(converted);
     });
+
+    // also can use fetch('url to fire base collection') // drawback heavily nested json
+    // or can use promise 
+    /*collRef.get().then(snapshot => {
+      const converted = convertSnapshotToMap(snapshot);
+
+      updateCollections(converted);
+    });
+    */
+
   }
 
   render() {
